@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+    <body>
+      <div class="inner-layer">
+          <div class="container">
+            <div class="row no-margin">
+                <div class="col-sm-7">
+                    <div class="content">
+                        <h1>Book You Slot Now and Save your time</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis at lacus at rhoncus. Integer pharetra lacus vitae sapien blandit eleifend. </p>
+                        <h2>For Help Call : +918485054613</h2>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="form-data">
+                        <div class="form-head">
+                            <h2>Book Appointemnt</h2>
+                        </div>
+                        <div class="form-body">
+                            <div class="row form-row">
+                              <input type="text" placeholder="Enter Full name" class="form-control">
+                            </div>
+                            <div class="row form-row">
+                              <input type="text" placeholder="Enter Mobile Number" class="form-control">
+                            </div>
+                             <div class="row form-row">
+                              <input type="text" placeholder="Enter Email Adreess" class="form-control">
+                            </div>
+                           <div class="row form-row">
+                              <input id="dat" type="text" placeholder="Appointment Date" class="form-control">
+                            </div>
+                            
+                            <h6>Address Details</h6>
+
+                             <div class="row form-row">
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Enter Area" class="form-control">
+                                </div>
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Enter City" class="form-control">
+                                </div>
+                            </div>
+                             <div class="row form-row">
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Enter State" class="form-control">
+                                </div>
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Postal Code" class="form-control">
+                                </div>
+                            </div>
+                            
+                            <p for="Doctor">Select Doctor:
+                            <select name="Doctor" id="doctor">
+                                <option value="Doctor">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="other">Other</option>
+                            </select></p><br>
+                            
+                            <p for="Mode">Select Mode:
+                            <select name="Online" id="mode">
+                                <option value="Online">Online</option>
+                                <option value="Physical">Physical</option>
+                            </select></p><br>
+                            
+                              <p for="specialist">Select Specialist:
+                        <select name="specialist" id="specialist">
+                            <option value="Allergists">Allergists</option>
+                            <option value="Dermatologists">Dermatologists</option>
+                            <option value="Ophthalmologists">Ophthalmologists</option>
+                            <option value="Obstetrician/gynecologists">Obstetrician/gynecologists</option>
+
+                            <option value="Cardiologists">Cardiologists</option>
+                            <option value="Endocrinologists">Endocrinologists</option>
+                            <option value="Gastroenterologists">Gastroenterologists</option>
+                            <option value="Nephrologists">Nephrologists</option>
+                            <option value="Urologists">Urologists</option>
+
+                            <option value="Pulmonologists">Pulmonologists</option>
+                            <option value="Otolaryngologists">Otolaryngologists</option>
+                            <option value="Neurologists">Neurologists</option>
+
+                            <option value="Psychiatrists">Psychiatrists</option>
+                            <option value="Orthopedic surgeons">Orthopedic surgeons</option>
+                            <option value="Anesthesiologists">Anesthesiologists</option>
+
+                        </select><br></p>
+
+                             <div class="row form-row">
+                               <button class="btn btn-success btn-appointment">
+                                 Book Appointment
+                               </button>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+    </body>
+  
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          $("#dat").datepicker();
+      })
+    </script>
+    
+  </body>
+</html>

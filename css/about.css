@@ -1,0 +1,209 @@
+.body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.upper-part img
+{
+    height: 420px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.upper-title
+{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 600px;
+    top: 250px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 10%;
+    align-items: center;
+}
+.upper-part h1{
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+
+.upper-part h2{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+.about h1{
+    font-size: 32px;
+    text-align: left;
+    margin-left: 80px;
+    color: #313131;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about p
+{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 80px;
+    color: #313131;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .about p 
+    {
+        font-size: 16px;
+    }
+}
+
+
+.vision
+{
+    border-radius: 20px;
+    width: 600px;
+    border: 2px solid  #B5CA15;;
+    margin-left: 300px;
+    margin-top: 4%;
+    height: 240px;
+
+}
+.vision h2
+{
+    font-size: 24px;
+    text-align: center;
+    color:  #B5CA15;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.vision p
+{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.vision img
+{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: auto 60/60;
+}
+
+
+.mission
+{
+    border-radius: 20px;
+    width: 600px;
+    border: 2px solid #B5CA15;;
+    margin-left: 1000px;
+    margin-top: -13%;
+    height: 240px;
+
+
+}
+.mission h2
+{
+    font-size: 24px;
+    text-align: center;
+    color:  #B5CA15;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.mission p
+{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.mission img
+{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: auto 60/60;
+}
+
+.values h1{
+    font-size: 32px;
+    text-align: left;
+    margin-left: 80px;
+    color: #313131;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.values
+{
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+}
+
+.patient,
+.integrity,
+.team,
+.owner,
+.innovation
+{
+    
+    border-radius: 20px;
+    width: 500px;
+    border: 2px solid #B5CA15;;
+    height: 370px;
+    margin-left: 60px;
+    margin-top: 30px;
+    float: left;
+}
+
+.patient h2,
+.integrity h2,
+.team h2,
+.owner h2,
+.innovation h2
+{
+    font-size: 28px;
+    text-align: center;
+    color:  #B5CA15;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.patient p,
+.integrity p,
+.team p,
+.owner p,
+.innovation p
+{
+    font-size: 22px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.patient img,
+.integrity img,
+.team img,
+.owner img,
+.innovation img
+{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    aspect-ratio: auto 80/80;
+}
+
+.values :after {
+    content: "";
+    display: table;
+    clear: both;
+  }

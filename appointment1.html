@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Book Appointment
+        </title>
+        <link rel="stylesheet" href="/Applications/XAMPP/xamppfiles/htdocs/VCare-PBL-main/Vcare1-main/css/appointment1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div class="container">
+            <form id="myform" method="post">
+            <div class="main-body">
+                <h1>Book An Appointment</h1>
+                <div class="left-side">
+                    <input type="text" placeholder="First Name" name="fname" id="first-name"><br>
+                    <input type="email" placeholder="Email" name="email" id="email"><br>
+                    <p>Select DOB: <input type="date" value="DOB" id="dob"><br></p>
+
+                    <p for="specialist">Select Specialist:
+                        <select name="specialist" id="specialist">
+                            <option value="Allergists">Allergists</option>
+                            <option value="Dermatologists">Dermatologists</option>
+                            <option value="Ophthalmologists">Ophthalmologists</option>
+                            <option value="Obstetrician/gynecologists">Obstetrician/gynecologists</option>
+
+                            <option value="Cardiologists">Cardiologists</option>
+                            <option value="Endocrinologists">Endocrinologists</option>
+                            <option value="Gastroenterologists">Gastroenterologists</option>
+                            <option value="Nephrologists">Nephrologists</option>
+                            <option value="Urologists">Urologists</option>
+
+                            <option value="Pulmonologists">Pulmonologists</option>
+                            <option value="Otolaryngologists">Otolaryngologists</option>
+                            <option value="Neurologists">Neurologists</option>
+
+                            <option value="Psychiatrists">Psychiatrists</option>
+                            <option value="Orthopedic surgeons">Orthopedic surgeons</option>
+                            <option value="Anesthesiologists">Anesthesiologists</option>
+
+                        </select><br></p>
+                    
+                        <p>Select Date :<input type="date" value="Select Date" id="date" placeholder="Select Date"></p><br>
+
+                </div>
+
+                <div class="right-side">
+                    <input type="text" placeholder="Last Name" name="lastname" id="last-name"><br>
+                    <input type="tel" placeholder="Phone No." name="phone" id="phone"><br>
+                    
+                    <p for="Gender">Select Gender:
+                        <select name="Male" id="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="other">Other</option>
+                        </select></p><br>
+
+                        <p for="Doctor">Select Doctor:
+                            <select name="Doctor" id="doctor">
+                                <option value="Doctor">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="other">Other</option>
+                            </select></p><br>
+
+                        <p for="Mode">Select Mode:
+                            <select name="Online" id="mode">
+                                <option value="Online">Online</option>
+                                <option value="Physical">Physical</option>
+                            </select></p><br>
+
+                
+                </div>
+                <div class="footer-side">
+                    <p><input type="checkbox" id="checkbox"/>I Agree “Patient Information Consent.”</p>
+                    <input type="reset" value="Cancel" id="cancel" onclick="myFunction()" readonly/>
+                    <input type="submit" value="Submit" id="submit" onclick="SubmitF()" readonly/>
+                </div>
+            </div>
+        </form>
+
+        </div>
+
+        <script>
+            function myFunction()
+            {
+                document.getElementById("myform").reset();
+            }
+        </script>
+        <script>
+            function SubmitF()
+            {
+                 
+                let name=document.getElementById('first-name').value;
+                let email=document.getElementById('email').value;
+                let last_name=document.getElementById('last-name').value;
+                let phone=document.getElementById('phone').value;
+                let specialist=document.getElementById('specialist').value;
+                let gender=document.getElementById('gender').value;
+                let doctor=document.getElementById('doctor').value;
+                let mode=document.getElementById('mode').value;
+                alert(name);
+                alert(email);
+                alert(last_name);
+                alert(phone);
+                alert(specialist);
+                alert(gender);
+                alert(doctor);
+                alert(mode);
+
+            }
+        </script>
+    </body>
+</html>
